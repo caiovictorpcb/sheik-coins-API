@@ -9,7 +9,7 @@ class MoedaDao{
         const moedas = Array.from(response.data)
         this.top100 = []        
         for(var i =0;i<moedas.length;i++){
-            this.top100.push({id:moedas[i].id, nome:moedas[i].name, preco:moedas[i].current_price, symbol:moedas[i].symbol, img:moedas[i].image, mktcap:moedas[i].market_cap}) 
+            this.top100.push({id:moedas[i].id, key:i+1, nome:moedas[i].name, preco:moedas[i].current_price, symbol:moedas[i].symbol, img:moedas[i].image, mktcap:moedas[i].market_cap}) 
         }
         return this.top100
         
