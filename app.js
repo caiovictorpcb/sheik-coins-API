@@ -16,7 +16,7 @@ app.use('/crypto', indexRouter)
 
 app.use('/users', indexRouter)
 
-app.listen(5000, () => {
+app.listen(process.env.PORT || 5000, () => {
   console.log("Rodando em http://localhost:5000")
 })
 
