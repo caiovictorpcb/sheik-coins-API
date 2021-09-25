@@ -1,6 +1,6 @@
-# <img align="center" height="40" width="40" src="https://images.vexels.com/media/users/3/130123/isolated/preview/451253d81a55a06cc55363c70acf09b3-circulo-amarelo-do-cifrao.png"> SheikCoins
+# <img align="center" height="40" width="40" src="https://images.vexels.com/media/users/3/130123/isolated/preview/451253d81a55a06cc55363c70acf09b3-circulo-amarelo-do-cifrao.png"> <a href="https://sheik-coins-front.vercel.app/">SheikCoins</a>
 
-<a href="https://sheik-coins-front.vercel.app/"><h1>ACESSAR SHEIK COINS</h1></a>
+
 # O que é
 
 SheikCoins é um website inspirado em sites de compra e venda de cryptomoedas, e seu objetivo é monitorar as principais moedas do mercado.
