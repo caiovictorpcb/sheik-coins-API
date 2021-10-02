@@ -1,5 +1,11 @@
 # <img align="center" height="40" width="40" src="https://images.vexels.com/media/users/3/130123/isolated/preview/451253d81a55a06cc55363c70acf09b3-circulo-amarelo-do-cifrao.png"> <a href="https://sheik-coins-front.vercel.app/">SheikCoins</a>
 
+# Tecnologias Utilizadas
+
+<div style="display: inline_block">
+  <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
+</div>
+
 
 # O que é
 
