@@ -5,7 +5,7 @@ import axios from "axios"
 class MoedaDao{
     top100 = []
     async listarMoedasTop(){
-        const response = await axios.get('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=3&page=1&sparkline=false')
+        const response = await axios.get('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=30&page=1&sparkline=false')
         const moedas = Array.from(response.data)
         this.top100 = []        
         for(var i =0;i<moedas.length;i++){
