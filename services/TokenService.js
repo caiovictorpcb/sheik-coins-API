@@ -1,7 +1,7 @@
 import jwt from 'jsonwebtoken'
 
 
-class Token{
+class TokenService{
 
     gerarToken(data){
         return jwt.sign(data, 'xesquedele')
@@ -10,7 +10,7 @@ class Token{
 
     verificarToken(token){
         try {
-            var decoded = jwt.verify(token, 'xesquedele');
+            const decoded = jwt.verify(token, 'xesquedele');
             return decoded
         }catch(err) {
             return false
@@ -21,4 +21,4 @@ class Token{
 
 
 
-export default new Token();
+export default new TokenService();

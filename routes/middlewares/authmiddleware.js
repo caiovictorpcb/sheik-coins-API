@@ -1,4 +1,4 @@
-import Token from '../../services/auth'
+import Token from '../../services/TokenService'
 
 
 const verifyToken = (req, res, next) => {

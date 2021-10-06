@@ -1,7 +1,7 @@
 import sequelize from "../db";
 import { Sequelize } from "sequelize";
 import bcrypt from 'bcrypt'
-import MoedasUsuario from './moedas'
+import MoedasUsuario from './posses'
 
 const DataTypes = Sequelize.DataTypes;
 
