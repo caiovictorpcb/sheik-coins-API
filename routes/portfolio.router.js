@@ -25,12 +25,10 @@ router.post('/delete', async (req, res)=>{
     }
 )
 
-
-
 router.get('/:id', async(req, res)=>{
     const user = await getUserById(req.params.id) 
     const verify = TokenService.verificarToken(req.headers.authorization)
-    if(verify && user && user?.id === verify?.id){
+    if(verify && user){
         const posses = await listarPosses(user.id)
         res.send(posses)
 }

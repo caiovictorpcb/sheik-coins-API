@@ -23,13 +23,13 @@ const User = sequelize.define('User', {
     hooks: {
      beforeCreate: async (user) => {
       if (user.senha) {
-       const salt = await bcrypt.genSaltSync(10, 'a');
+       const salt = bcrypt.genSaltSync(10, 'a');
        user.senha = bcrypt.hashSync(user.senha, salt);
       }
      },
      beforeUpdate:async (user) => {
       if (user.senha) {
-       const salt = await bcrypt.genSaltSync(10, 'a');
+       const salt = bcrypt.genSaltSync(10, 'a');
        user.senha = bcrypt.hashSync(user.senha, salt);
       }
      }
@@ -41,7 +41,7 @@ const User = sequelize.define('User', {
     }
    });
    User.prototype.validPassword = async (senha, hash) => {
-    return await bcrypt.compareSync(senha, hash);
+    return bcrypt.compareSync(senha, hash);
    };
    User.hasMany(MoedasUsuario, { as: 'Moedas', foreignKey: 'userId' })
 

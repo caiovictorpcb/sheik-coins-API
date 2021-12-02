@@ -11,13 +11,11 @@ router.post('/signup', async (req, res) => {
     res.send("CADASTRADO")
 })
   
-
 router.get('/users', async (req,res) =>{
     const users = await listUsers()
     res.send(users) 
 })
 
-  
 router.get('/users/:id', async(req, res) =>{
     await deleteUser(req.params.id)
 })
