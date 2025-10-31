@@ -1,6 +1,6 @@
 import express from "express";
-import { newPosse, getUserById, listarPosses, deletePosse } from "../services/DbService";
-import TokenService from '../services/TokenService'
+import { newPosse, getUserById, listarPosses, deletePosse } from "../services/DbService.js";
+import TokenService from '../services/TokenService.js'
 const router = express.Router();
 
 

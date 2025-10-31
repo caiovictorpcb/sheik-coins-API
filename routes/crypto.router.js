@@ -1,5 +1,5 @@
 import express from "express";
-import listarMoedasTop from '../services/DbService'
+import listarMoedasTop from '../services/DbService.js'
 
 
 

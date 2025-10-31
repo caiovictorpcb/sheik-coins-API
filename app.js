@@ -1,9 +1,9 @@
 import express from 'express'
 import cors from 'cors'
-import sequelize from './db';
-import AuthRouter from './routes/auth.router'
-import CryptoRouter from './routes/crypto.router'
-import PortfolioRouter from './routes/portfolio.router'
+import sequelize from './db.js';
+import AuthRouter from './routes/auth.router.js'
+import CryptoRouter from './routes/crypto.router.js'
+import PortfolioRouter from './routes/portfolio.router.js'
 
 var app = express();
 

@@ -1,6 +1,6 @@
-import User from "../models/users"
-import Response from "./ResponseSchema"
-import TokenService from "./TokenService"
+import User from "../models/users.js"
+import Response from "./ResponseSchema.js"
+import TokenService from "./TokenService.js"
 import bcrypt from 'bcrypt'
 
 

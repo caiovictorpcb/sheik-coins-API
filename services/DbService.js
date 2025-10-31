@@ -1,6 +1,6 @@
-import MoedaDao from '../models/moeda'
-import User from '../models/users'
-import MoedasUsuario from '../models/posses';
+import MoedaDao from '../models/moeda.js'
+import User from '../models/users.js'
+import MoedasUsuario from '../models/posses.js';
 
 
 export default function listarMoedasTop(){

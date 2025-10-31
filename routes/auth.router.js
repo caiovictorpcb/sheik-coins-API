@@ -1,6 +1,6 @@
 import express from "express";
-import { listUsers, newUser, deleteUser } from './../services/DbService';
-import AuthService from "../services/AuthService";
+import { listUsers, newUser, deleteUser } from './../services/DbService.js';
+import AuthService from "../services/AuthService.js";
 
 const router = express.Router();
 

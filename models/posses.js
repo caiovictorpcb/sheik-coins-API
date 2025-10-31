@@ -1,4 +1,4 @@
-import sequelize from "../db";
+import sequelize from "../db.js";
 import { Sequelize } from 'sequelize'
 
 
